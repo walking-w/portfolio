@@ -1,0 +1,19 @@
+.footer__content{
+    font-size: var(--size-s);
+    text-align: center;
+    font-weight: 800;
+    color: var(--clr-slate600);
+    margin:1.5rem;
+    letter-spacing: 8px;
+    transition: color 0.3s;
+    user-select: none;
+}
+
+.footer__content:hover{
+    color: var(--rose);
+}
+
+.footer__line{
+    border-width: 1px;
+    border-color: var(--clr-slate800);
+}

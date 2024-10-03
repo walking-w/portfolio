@@ -1,0 +1,33 @@
+.work{
+    margin-left: 10px;
+}
+
+.work__content{
+    padding-left: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.work__title{
+    font-size: var(--size-5xl);
+    color: var(--clr-light);
+}
+
+.work__subtitle{
+    font-size: var(--size-xl);
+}
+
+.work__description{
+    max-width: 120ch;
+    align-items: center;
+    color: var(--clr-slate400);
+    font-size: var(--size-l);
+}
+
+.work__line{
+    border-color: var(--clr-slate800);
+    
+}
+
+@media(min-width:425){}
